@@ -1,0 +1,69 @@
+/*------------------------------------------------------*/
+.team-heading {
+    font-size: 5rem;
+    color: rgb(114, 114, 114);
+    align-items: center;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5rem 20rem 10rem;
+}
+
+.card {
+    width: 30rem;
+    height: 45rem;
+    border-radius: .5rem;
+    position: relative;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 8rem; */
+    width: 100%;
+}
+
+.card-img-wrapper {
+    width: 80%;
+    height: 80%;
+    /* background-color: #262626; */
+    
+    border-radius: .5rem;
+
+}
+
+.card-img-wrapper img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.card-info {
+    position: absolute;
+    bottom: 13rem;
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+
+/*------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+ background: linear-gradient(to right, #e48108, #eeae2c, #efbc55);

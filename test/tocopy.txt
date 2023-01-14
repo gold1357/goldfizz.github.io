@@ -1,0 +1,100 @@
+/*------------------------------------------------------ */
+html{
+    font-size: 60;
+}
+.container{
+    display: none;
+}
+.spinner-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(/pics/team/bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circles{
+    width: 6rem;
+    height: 6rem;
+    background: #00d5fb;
+}
+.circles div{
+    animation: circles 1.2s cubic-bezier(.5, 0, .5, 1) infinite;
+    transform-origin: 30rem 30rem;
+}
+.circles div::after{
+    content: "";
+    position: absolute;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.circles div:nth-child(1)::after{
+    top: 23rem;
+    left: 42rem;
+}
+.circles div:nth-child(2)::after{
+    top: 23.5rem;
+    left: 41.7rem;
+}
+.circles div:nth-child(3)::after{
+    top: 23.8rem;
+    left: 41.2rem;
+}
+.circles div:nth-child(4)::after{
+    top: 24rem;
+    left: 40.6rem;
+}
+.circles div:nth-child(5)::after{
+    top: 24.1rem;
+    left: 40rem;
+}
+.circles div:nth-child(6)::after{
+    top: 24rem;
+    left: 39.3rem;
+}
+.circles div:nth-child(7)::after{
+    top: 23.6rem;
+    left: 38.7rem;
+}
+@keyframes circles {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="spinner-container">
+    <div class="circles">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+
+
+
